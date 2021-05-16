@@ -2,7 +2,6 @@ import os
 import math
 import time
 import config
-from pyspark import SparkContext
 from pyspark.sql import SQLContext, Row, SparkSession
 from pyspark.mllib.recommendation import ALS
 
